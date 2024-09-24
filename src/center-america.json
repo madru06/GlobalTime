@@ -1,0 +1,34 @@
+{
+  "countries": [
+    {
+      "name": "Belice",
+      "timezone": "UTC-6",
+      "cities": ["Belmopán", "Ciudad de Belice"]
+    },
+    {
+      "name": "Costa Rica",
+      "timezone": "UTC-6",
+      "cities": ["San José", "Alajuela"]
+    },
+    {
+      "name": "El Salvador",
+      "timezone": "UTC-6",
+      "cities": ["San Salvador", "Santa Ana"]
+    },
+    {
+      "name": "Guatemala",
+      "timezone": "UTC-6",
+      "cities": ["Ciudad de Guatemala", "Quetzaltenango"]
+    },
+    {
+      "name": "Honduras",
+      "timezone": "UTC-6",
+      "cities": ["Tegucigalpa", "San Pedro Sula"]
+    },
+    {
+      "name": "Nicaragua",
+      "timezone": "UTC-6",
+      "cities": ["Managua", "León"]
+    }
+  ]
+}

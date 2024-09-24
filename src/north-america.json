@@ -1,0 +1,80 @@
+{
+    "countries": [
+      {
+        "name": "Canadá",
+        "zones": [
+          {
+            "timezone": "UTC-3",
+            "cities": ["St. John's"]
+          },
+          {
+            "timezone": "UTC-4",
+            "cities": ["Halifax", "Moncton"]
+          },
+          {
+            "timezone": "UTC-5",
+            "cities": ["Toronto", "Ottawa"]
+          },
+          {
+            "timezone": "UTC-6",
+            "cities": ["Winnipeg"]
+          },
+          {
+            "timezone": "UTC-7",
+            "cities": ["Calgary", "Edmonton"]
+          },
+          {
+            "timezone": "UTC-8",
+            "cities": ["Vancouver"]
+          }
+        ]
+      },
+      {
+        "name": "Estados Unidos",
+        "zones": [
+          {
+            "timezone": "UTC-5",
+            "cities": ["Nueva York", "Washington D.C."]
+          },
+          {
+            "timezone": "UTC-6",
+            "cities": ["Chicago", "Houston"]
+          },
+          {
+            "timezone": "UTC-7",
+            "cities": ["Denver", "Phoenix"]
+          },
+          {
+            "timezone": "UTC-8",
+            "cities": ["Los Ángeles", "San Francisco"]
+          },
+          {
+            "timezone": "UTC-9",
+            "cities": ["Anchorage"]
+          },
+          {
+            "timezone": "UTC-10",
+            "cities": ["Honolulu"]
+          }
+        ]
+      },
+      {
+        "name": "México",
+        "zones": [
+          {
+            "timezone": "UTC-6",
+            "cities": ["Ciudad de México", "Guadalajara"]
+          },
+          {
+            "timezone": "UTC-7",
+            "cities": ["Tijuana"]
+          },
+          {
+            "timezone": "UTC-8",
+            "cities": ["Los Cabos"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,87 @@
+{
+  "countries": [
+    {
+      "name": "Argentina",
+      "timezone": "UTC-3",
+      "cities": ["Buenos Aires", "Córdoba", "Rosario"]
+    },
+    {
+      "name": "Bolivia",
+      "timezone": "UTC-4",
+      "cities": ["Sucre", "La Paz", "Santa Cruz"]
+    },
+    {
+      "name": "Brasil",
+      "zones": [
+        {
+          "timezone": "UTC-3",
+          "cities": ["Brasilia", "São Paulo", "Rio de Janeiro"]
+        },
+        {
+          "timezone": "UTC-4",
+          "cities": ["Manaos", "Porto Velho"]
+        },
+        {
+          "timezone": "UTC-5",
+          "cities": ["Boa Vista"]
+        }
+      ]
+    },
+    {
+      "name": "Chile",
+      "zones": [
+        {
+          "timezone": "UTC-3",
+          "cities": ["Santiago"]
+        },
+        {
+          "timezone": "UTC-5",
+          "cities": ["Isla de Pascua"]
+        }
+      ]
+    },
+    {
+      "name": "Colombia",
+      "timezone": "UTC-5",
+      "cities": ["Bogotá", "Medellín", "Cali"]
+    },
+    {
+      "name": "Ecuador",
+      "timezone": "UTC-5",
+      "cities": ["Quito", "Guayaquil"]
+    },
+    {
+      "name": "Paraguay",
+      "zones": [
+        {
+          "timezone": "UTC-4",
+          "cities": ["Asunción"]
+        },
+        {
+          "timezone": "UTC-5",
+          "cities": ["Ciudad del Este"]
+        }
+      ]
+    },
+    {
+      "name": "Perú",
+      "timezone": "UTC-5",
+      "cities": ["Lima", "Arequipa"]
+    },
+    {
+      "name": "Surinam",
+      "timezone": "UTC-3",
+      "cities": ["Paramaribo"]
+    },
+    {
+      "name": "Uruguay",
+      "timezone": "UTC-3",
+      "cities": ["Montevideo", "Salto"]
+    },
+    {
+      "name": "Venezuela",
+      "timezone": "UTC-4",
+      "cities": ["Caracas", "Maracaibo"]
+    }
+  ]
+}

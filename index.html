@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/980cd75476.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Global Hours</title>
+</head>
+<body class="flex-col bg-violet-200">
+    <header class="flex bg-purple-900 p-2 text-white sticky top-0">
+        <div class="self-center">
+            <h1 id="headerTitle" class="text-3xl uppercase">
+                Global time finder
+            </h1>
+        </div>
+        <div class="px-2 ml-auto">
+            <button class="p-2 cursor-not-allowed" disabled title="Coming soon!">
+                <i class="fa fa-language fa-2xl text-purple-700"></i>
+            </button>
+        </div>
+    </header>
+    <main class="container bg-violet-200 mx-auto border-1 border-white ">
+        <form class="bg-violet-200 md:mt-5 md:shadow-lg py-3 rounded-lg">
+            <div class="
+                bg-violet-200 p-3 
+                flex 
+                flex-col 
+                md:flex-row 
+                items-start
+                md:items-end 
+                md:gap-2.5
+                ">
+                <label for="" class="
+                    text-md text-purple-800 font-light shrink-0 my-1
+                ">Beign in</label>
+                <select name="" id="" class="
+                    p-2
+                    border 
+                    border-purple-800 
+                    bg-purple-100 
+                    text-purple-800
+                    font-thin 
+                    flex-grow
+                    w-full
+                    md:w-auto
+                    focus:outline-none 
+                    focus:ring 
+                    focus:border-purple-800">
+                    <option value="sv">El Salvador <small>(Based in my current location)</small></option>
+                    <option value="WY">United States</option>
+                  </select>
+                <label for="" class="
+                    text-md text-purple-800 font-light my-1
+                ">At</label>
+                <input name="" id="" type="time" class="
+                    p-2 
+                    border 
+                    border-purple-800 
+                    bg-purple-100 
+                    text-purple-800
+                    text-center
+                    font-thin 
+                    flex-grow
+                    w-full
+                    md:w-auto
+                    focus:outline-none 
+                    focus:ring 
+                    focus:border-purple-800"/>
+                <small class="text-purple-800 font-thin text-xs">
+                    
+                </small>
+            </div>
+            <div class="bg-violet-200 p-3
+                flex
+                flex-col
+                md:flex-row 
+                items-start
+                md:items-end 
+                md:gap-2.5
+            ">
+                <label for="" class="
+                    text-md text-purple-800 font-light shrink-0
+                ">
+                    I need the hour of
+                </label>
+                <select name="" id=""class="
+                    p-2 
+                    border 
+                    border-purple-800 
+                    bg-purple-100 
+                    text-purple-800
+                    font-thin 
+                    flex-grow
+                    w-full
+                    focus:outline-none 
+                    focus:ring 
+                    focus:border-purple-800
+                    ">
+                    <option value="a">Argentina</option>
+                </select>
+                <select name="" id="" hidden></select>
+            </div>
+            <div class="
+                ">
+                <ul class="list-none font-thin text-2xl text-purple-800">
+                    <li class="
+                    p-3 mx-3 my-3
+                    bg-gradient-to-r 
+                    from-purple-300 
+                    to-violet-300 
+                    rounded
+                    border
+                    border-violet-400
+                    border-dashed
+                    shadow
+                    ">
+                      It's <span class="bg-purple-800 text-white rounded-lg p-1">00:00 AM</span>
+                      in Santa Fe
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </main>
+    <script type=""></script>
+</body>
+</html>
