@@ -22,11 +22,11 @@ If you need to find another hour at the target country, just change the current 
   - Tailwind CSS for overview styling
   - FontAwesome for icons
 
-#### Backend (soon to implement!)
+#### Backend (Core functionality in Vanilla JS)
 
-  - Custom ChatGPT data provided for countries, cities and timezones
-  - MomentJS for time manipulation
-  - FetchAPI for API requests
+  - AXIOS for API requests
+  - GeoPlugin for geolocalization
+  - RestCountries for large, complete countries info
 
 ## Authors
 
