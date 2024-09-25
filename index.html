@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/980cd75476.js" crossorigin="anonymous"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/logo.png">
     <title>Global Hours</title>
@@ -36,7 +37,7 @@
                 <label for="" class="
                     text-md text-purple-800 font-light shrink-0 my-1
                 ">Beign in</label>
-                <select name="" id="" class="
+                <select name="selBaseCountry" id="selBaseCountry" class="
                     p-2
                     border 
                     border-purple-800 
@@ -49,13 +50,12 @@
                     focus:outline-none 
                     focus:ring 
                     focus:border-purple-800">
-                    <option value="sv">El Salvador <small>(Based in my current location)</small></option>
-                    <option value="WY">United States</option>
+                    
                   </select>
                 <label for="" class="
                     text-md text-purple-800 font-light my-1
                 ">At</label>
-                <input name="" id="" type="time" class="
+                <input name="inpBaseTime" id="inpBaseTime" type="time" class="
                     p-2 
                     border 
                     border-purple-800 
@@ -86,7 +86,7 @@
                 ">
                     I need the hour of
                 </label>
-                <select name="" id=""class="
+                <select name="selTargetCountry" id="selTargetCountry" class="
                     p-2 
                     border 
                     border-purple-800 
@@ -98,13 +98,10 @@
                     focus:outline-none 
                     focus:ring 
                     focus:border-purple-800
-                    ">
-                    <option value="a">Argentina</option>
+                    " disabled>
                 </select>
-                <select name="" id="" hidden></select>
             </div>
-            <div class="
-                ">
+            <div class="">
                 <ul class="list-none font-thin text-2xl text-purple-800">
                     <li class="
                     p-3 mx-3 my-3
@@ -124,6 +121,16 @@
             </div>
         </form>
     </main>
-    <script type=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+    <script language="Javascript"> 
+     
+        /*FOR FURTHER FUNCTIONALITY*/
+        selTargetCountry.addEventListener("change", (ev)=>{
+            self = ev.target;
+
+        }, false);
+
+    </script>
 </body>
 </html>
